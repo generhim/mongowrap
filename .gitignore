@@ -1,0 +1,9 @@
+*.DS_Store
+.idea
+.gitlog.txt
+about.txt
+node_modules
+demo
+test
+
+
