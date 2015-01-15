@@ -13,7 +13,6 @@ mongoWrap.connect(function(err, db) {  "use strict";
   if(err) throw err;
   runAfterDBConnect();
 });
-
 function runAfterDBConnect(){
   var query = {
     collection: 'myCollection',
