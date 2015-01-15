@@ -1,6 +1,6 @@
 {
   "name": "mongo-wrap",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Thin wrapper around native node mongoDB driver. Provides persistent authenticated connection and genericf routines useful to building simple REST interfaces.",
   "author": {
     "name": "Greg Milligan",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xybersolve/mongowrap.git"
+    "url": "https://github.com/gmilligan/mongowrap.git"
   },
   "keywords": [
     "mongo",
@@ -29,9 +29,9 @@
       "url" : "https://github.com/gmilligan/mongowrap/blob/v1.2/LICENSE"
   }],
   "bugs": {
-    "url": "https://github.com/xybersolve/mongowrap/issues"
+    "url": "https://github.com/gmilligan/mongowrap/issues"
   },
-  "homepage": "https://github.com/xybersolve/mongowrap",
+  "homepage": "https://github.com/gmilligan/mongowrap",
   "dependencies": {
     "mongodb": "^1.4.22"
   }
