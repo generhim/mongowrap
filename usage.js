@@ -7,7 +7,7 @@
 */
 
 var cfg              = require('./config/config')
-  , mongoWrap        = require('./src/mongo-wrap')(cfg.mongo);
+  , mongoWrap        = require('./lib/mongo-wrap')(cfg.mongo);
 
 mongoWrap.connect(function(err, db) {  "use strict";
   if(err) throw err;
