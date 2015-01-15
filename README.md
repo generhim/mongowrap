@@ -1,6 +1,6 @@
 #MongoWrap
 Wraps native node mongoDB driver, to provide persistent authenticated connection and routines useful to the construction of RESTful interfaces. 
-MongoWrap's primary goal is to provide a wrapper for the more generic calls & persisted connection, but not to block native "db" calls (i.e., best of both worlds).      
+MongoWrap's primary goal is to provide a wrapper for the more generic calls & persisted connection, but not block any native "db" functionality (i.e., best of both worlds).      
 
 ###MongoWrap API 
 ######Basics
