@@ -4,6 +4,7 @@ MongoWrap's primary goal is to provide a wrapper for the more generic calls & pe
 
 ###MongoWrap API 
 ######Basics
+* [Install](#install)
 * [Basic Usage](#usage)
 * [Configuration](#configure)
 * [connect()](#connect)
@@ -19,6 +20,25 @@ MongoWrap's primary goal is to provide a wrapper for the more generic calls & pe
 * [show()](#show)
 * [todayAsISODate()](#today-as-iso-date)
 * [dateAsISODate(date)](#date-as-iso-date)
+
+----
+<a name="usage"></a>
+###Install
+#####Install from npm registry
+
+```bash
+    
+    npm install mongo-wrap --save    
+
+```  
+
+#####Clone from github
+
+```bash
+    
+    git clone https://github.com/gmilligan/mongowrap.git    
+
+```  
 
 ----
 <a name="usage"></a>
