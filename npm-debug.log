@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /root/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+13 verbose folder .
+14 info prepublish mongo-wrap@1.2.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /root/.npm/1f1177db-tar.lock
+17 silly lockFile 0b959fc7-4009-0-45420292066410184-tmp-tgz tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+18 verbose lock tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz /root/.npm/0b959fc7-4009-0-45420292066410184-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 0b959fc7-4009-0-45420292066410184-tmp-tgz tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+22 silly lockFile 0b959fc7-4009-0-45420292066410184-tmp-tgz tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+23 verbose tar unpack /root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+24 silly lockFile 9f536839-4009-0-45420292066410184-package tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+25 verbose lock tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package /root/.npm/9f536839-4009-0-45420292066410184-package.lock
+26 silly lockFile 0b959fc7-4009-0-45420292066410184-tmp-tgz tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+27 verbose lock tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz /root/.npm/0b959fc7-4009-0-45420292066410184-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry LICENSE
+33 silly gunzTarPerm extractEntry mongo-wrap.js
+34 silly gunzTarPerm extractEntry usage.js
+35 silly gunzTarPerm extractEntry config/config.js
+36 silly gunzTarPerm extractEntry lib/mongo-wrap.js
+37 silly lockFile 9f536839-4009-0-45420292066410184-package tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+38 silly lockFile 9f536839-4009-0-45420292066410184-package tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+39 silly lockFile 0b959fc7-4009-0-45420292066410184-tmp-tgz tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+40 silly lockFile 0b959fc7-4009-0-45420292066410184-tmp-tgz tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/tmp.tgz
+41 verbose tar pack [ '/root/.npm/mongo-wrap/1.2.1/package.tgz',
+41 verbose tar pack   '/root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package' ]
+42 verbose tarball /root/.npm/mongo-wrap/1.2.1/package.tgz
+43 verbose folder /root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+44 silly lockFile 9f536839-4009-0-45420292066410184-package tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+45 verbose lock tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package /root/.npm/9f536839-4009-0-45420292066410184-package.lock
+46 silly lockFile f445eab4-npm-mongo-wrap-1-2-1-package-tgz tar:///root/.npm/mongo-wrap/1.2.1/package.tgz
+47 verbose lock tar:///root/.npm/mongo-wrap/1.2.1/package.tgz /root/.npm/f445eab4-npm-mongo-wrap-1-2-1-package-tgz.lock
+48 silly lockFile 9f536839-4009-0-45420292066410184-package tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+49 silly lockFile 9f536839-4009-0-45420292066410184-package tar:///root/tmp/npm-21290-h2Z-sxFv/1421363494009-0.45420292066410184/package
+50 silly lockFile f445eab4-npm-mongo-wrap-1-2-1-package-tgz tar:///root/.npm/mongo-wrap/1.2.1/package.tgz
+51 silly lockFile f445eab4-npm-mongo-wrap-1-2-1-package-tgz tar:///root/.npm/mongo-wrap/1.2.1/package.tgz
+52 silly lockFile e60c735d-oot-npm-mongo-wrap-1-2-1-package /root/.npm/mongo-wrap/1.2.1/package
+53 verbose lock /root/.npm/mongo-wrap/1.2.1/package /root/.npm/e60c735d-oot-npm-mongo-wrap-1-2-1-package.lock
+54 silly lockFile e60c735d-oot-npm-mongo-wrap-1-2-1-package /root/.npm/mongo-wrap/1.2.1/package
+55 silly lockFile e60c735d-oot-npm-mongo-wrap-1-2-1-package /root/.npm/mongo-wrap/1.2.1/package
+56 verbose tar unpack /root/.npm/mongo-wrap/1.2.1/package.tgz
+57 silly lockFile dedb6c24-oot-npm-mongo-wrap-1-2-1-package tar:///root/.npm/mongo-wrap/1.2.1/package
+58 verbose lock tar:///root/.npm/mongo-wrap/1.2.1/package /root/.npm/dedb6c24-oot-npm-mongo-wrap-1-2-1-package.lock
+59 silly lockFile f445eab4-npm-mongo-wrap-1-2-1-package-tgz tar:///root/.npm/mongo-wrap/1.2.1/package.tgz
+60 verbose lock tar:///root/.npm/mongo-wrap/1.2.1/package.tgz /root/.npm/f445eab4-npm-mongo-wrap-1-2-1-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry LICENSE
+66 silly gunzTarPerm extractEntry mongo-wrap.js
+67 silly gunzTarPerm extractEntry usage.js
+68 silly gunzTarPerm extractEntry config/config.js
+69 silly gunzTarPerm extractEntry lib/mongo-wrap.js
+70 silly lockFile dedb6c24-oot-npm-mongo-wrap-1-2-1-package tar:///root/.npm/mongo-wrap/1.2.1/package
+71 silly lockFile dedb6c24-oot-npm-mongo-wrap-1-2-1-package tar:///root/.npm/mongo-wrap/1.2.1/package
+72 silly lockFile f445eab4-npm-mongo-wrap-1-2-1-package-tgz tar:///root/.npm/mongo-wrap/1.2.1/package.tgz
+73 silly lockFile f445eab4-npm-mongo-wrap-1-2-1-package-tgz tar:///root/.npm/mongo-wrap/1.2.1/package.tgz
+74 verbose chmod /root/.npm/mongo-wrap/1.2.1/package.tgz 644
+75 verbose chown /root/.npm/mongo-wrap/1.2.1/package.tgz [ 0, 0 ]
+76 silly lockFile 3a52ce78- .
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'mongo-wrap',
+78 silly publish   version: '1.2.1',
+78 silly publish   description: 'Thin wrapper around native node mongoDB driver. Provides persistent authenticated connection and genericf routines useful to building simple REST interfaces.',
+78 silly publish   author:
+78 silly publish    { name: 'Greg Milligan',
+78 silly publish      email: 'xybersolve@gmail.com',
+78 silly publish      url: 'xybersolve.com' },
+78 silly publish   main: 'lib/mongo-wrap.js',
+78 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+78 silly publish   repository:
+78 silly publish    { type: 'git',
+78 silly publish      url: 'https://github.com/gmilligan/mongowrap.git' },
+78 silly publish   keywords: [ 'mongo', 'mongodb', 'wrap', 'wrapper', 'node', 'native', 'REST' ],
+78 silly publish   licenses:
+78 silly publish    [ { type: 'MIT',
+78 silly publish        url: 'https://github.com/gmilligan/mongowrap/blob/v1.2/LICENSE' } ],
+78 silly publish   bugs: { url: 'https://github.com/gmilligan/mongowrap/issues' },
+78 silly publish   homepage: 'https://github.com/gmilligan/mongowrap',
+78 silly publish   dependencies: { mongodb: '^1.4.22' },
+78 silly publish   readme: '#MongoWrap\r\nWraps native node mongoDB driver, to provide persistent authenticated connection and routines useful to the construction of RESTful interfaces. \r\nMongoWrap\'s primary goal is to provide a wrapper for the more generic calls & persisted connection, but not block any native "db" functionality (i.e., best of both worlds).      \r\n\r\n###MongoWrap API \r\n######Basics\r\n* [Install](#install)\r\n* [Basic Usage](#usage)\r\n* [Configuration](#configure)\r\n* [connect()](#connect)\r\n\r\n######Generic Methods:\r\n* [findAll()](#find-all)\r\n* [findById()](#find-by-id)\r\n* [insert()](#insert)\r\n* [updateById()](#update-by-id)\r\n* [removeById()](#remove-by-id)\r\n\r\n######Utility Methods:\r\n* [show()](#show)\r\n* [todayAsISODate()](#today-as-iso-date)\r\n* [dateAsISODate(date)](#date-as-iso-date)\r\n\r\n----\r\n<a name="usage"></a>\r\n###Install\r\n#####Install from npm registry\r\n\r\n```bash\r\n    \r\n    npm install mongo-wrap --save    \r\n\r\n```  \r\n\r\n#####Clone from github\r\n\r\n```bash\r\n    \r\n    git clone https://github.com/gmilligan/mongowrap.git    \r\n\r\n```  \r\n\r\n----\r\n<a name="usage"></a>\r\n###Basic Usage\r\n#####Use mongoDb "db" directly (passed in from "connect" method)\r\n```js\r\n  // for calls requiring additional functionality \r\n  // than generic wrapper interface provides\r\n  dbWrap.connect(function(err, db){\r\n    db.collection(\'name\')\r\n      .find({},{},{})\r\n      .toArray(...\r\n  });\r\n  \r\n  // run an "aggregate" off "db" collection  \r\n\r\n  dbWrap.connect(function(err, db){\r\n    if(err) return cb(err);\r\n    db.collection(\'name\')\r\n      .aggregate({$group: {_id: \'$field\'}}, \r\n      function(err, results){\r\n      if(err) return cb(err);\r\n      cb(null, results);\r\n    });\r\n  });\r\n```  \r\n#####or, use MongoWrap\'s convenience methods for generic REST type calls\r\n  \r\n```js\r\n  var opts = {\r\n    collection: @collection,\r\n    id: @id\r\n  }\r\n  dbWrap.findById(opts, function(err, result){\r\n    if(err) return cb(err);\r\n    if(result) cb(null, result);\r\n  });\r\n    \r\n```\r\n----\r\n<a name="configure"></a>\r\n###Instantiate & Configure MongoWrap \r\n\r\n```js\r\n\r\n// create wrapper by passing in connect configuration\r\n// this is likely stored in a json file or environment variables  \r\n\r\nvar config = {  \r\n  "username": "username",  \r\n  "password": "password",  \r\n  "database": "database",  \r\n  "host"    : "localhost", \r\n  "port"    : "27017",     \r\n}\r\nvar dbWrap = new MongoWrap(config)\r\n\r\n// - or inline - \r\n \r\nvar dbWrap = new MongoWrap({\r\n    username: "username",  \r\n    password: "password",  \r\n    database: "database",  \r\n    host    : "localhost", \r\n    port    : "27017",     \r\n});\r\n\r\n```\r\n----\r\n<a name="connect"></a>\r\n###Create Connection (Express example)\r\n\r\n```js\r\n// instantiate MongoWrap\r\nvar dbWrap = require(\'./server/tools/mongowrap/mongo-wrap\')(cfg.mongo)\r\n\r\n// share instance of MongoWrap to modules requiring db interaction\r\nreportProvider = require(\'./server/data-providers/report-provider\')(dbWrap) \r\n\r\n// start server after db is connected\r\ndbWrap.connect(function(err, db) {\r\n  if(err) throw err;\r\n\r\n  app.listen(cfg.express.port);\r\n  console.log(\'Started Local Server, Port:\' + cfg.express.port);\r\n});\r\n\r\n```\r\n----\r\n###Generic Query & Manipulation Methods \r\n<a name="find-all"></a>\r\n####findAll()\r\nReturns array of documents, using user defined "query" & "sort" \r\n\r\nSyntax:\r\n```js\r\n    var query = {\r\n      collection: @collection,\r\n      where: {},\r\n      sort: {}\r\n    }\r\n    dbWrap.findAll(query, function(err, results){\r\n      if(err) return cb(err);\r\n      if(results){...}\r\n    });\r\n\r\n```\r\n==== \r\n<a name="find-by-id"></a>\r\n####findById()\r\nReturns a single document, located using item "id"  \r\n\r\nSyntax:\r\n```js\r\n    var opts = {\r\n      collection: @collection,\r\n      id: @id\r\n    }\r\n    dbWrap.findById(opts, function(err, result){\r\n      if(err) return cb(err);\r\n      if(result) cb(null, result);\r\n    });\r\n``` \r\n====\r\n<a name="insert"></a>\r\n####insert()\r\nInsert a new document  \r\n\r\nSyntax:\r\n```js\r\n    var opts = {\r\n      collection: collectionName,\r\n      data: {}\r\n    }\r\n    dbWrap.insert(opts, function(err, result){\r\n      if(err) return cb(err);\r\n      if(result} cb(null, result);\r\n    })\r\n```\r\n====\r\n<a name="update-by-id"></a>\r\n####updateById()\r\nUpdate existing document, using item "id"   \r\n\r\nSyntax:\r\n```js\r\n   var opts = {\r\n     collection: collectionName,\r\n     id: @id,\r\n     data: {}\r\n   }\r\n   dbWrap.updateById(opts, function(err, code){\r\n     if(err) return cb(err);\r\n     if(code.success===true) {...};\r\n   });\r\n```\r\n====\r\n<a name="remove-by-id"></a>\r\n####removeById()\r\nDelete existing document, using item "id"   \r\n\r\nSyntax:\r\n```js\r\n    var opts = {\r\n      collection: @collection,\r\n      id: @id\r\n    }\r\n    dbWrap.removeById(opts, function(err, code){\r\n      if(err) return cb(err);\r\n      if(code.success===true){...};\r\n    });\r\n```\r\n----\r\n\r\n###Utility Methods    \r\n<a name="show"></a>\r\n####show()\r\nLog out a colored tree view of any JavaScript object. Handy to check results. Basically logs a util.inspect(data, true, 10, true) on the object. It is handy.\r\n\r\nSyntax:\r\n```js\r\n   dbWrap.show(doc);\r\n```\r\n<a name="today-as-iso-date"></a>\r\n####todayAsISODate()\r\nReturn today\'s date as in ISO format \r\n\r\nSyntax:\r\n```js\r\n   var ISODate = dbWrap.todayAsISODate();\r\n   \r\n```\r\n<a name="date-as-iso-date"></a>\r\n####dateAsISODate()\r\nReturn a date in ISO format, if no date is passed in, it return today\'s date in ISO format. \r\n\r\nSyntax:\r\n```js\r\n   var ISODate = dbWrap.todayAsISODate(data);\r\n   \r\n```\r\n----\r\n####Thoughts/TODO:\r\n* As every db call requires a collection name in the options parameter, it seems more intuitive to pass the collection name as a first parameter, or at least allow this as an option.\r\n* As I have decided to share this library, I think may be time to move to a revealing module pattern and hide the internal _connect method. \r\n  \r\n',
+78 silly publish   readmeFilename: 'README.md',
+78 silly publish   _id: 'mongo-wrap@1.2.1',
+78 silly publish   dist: { shasum: '4c6423c89eb46c3f719bf7e1b90397d641f02224' },
+78 silly publish   _from: '.' }
+79 verbose url raw mongo-wrap
+80 verbose url resolving [ 'https://registry.npmjs.org/', './mongo-wrap' ]
+81 verbose url resolved https://registry.npmjs.org/mongo-wrap
+82 info trying registry request attempt 1 at 18:11:34
+83 http PUT https://registry.npmjs.org/mongo-wrap
+84 http 403 https://registry.npmjs.org/mongo-wrap
+85 error publish Failed PUT 403
+86 error Error: forbidden Attempting to modify version 1.2.1,
+86 error which was previously published on 2015-01-15T22:25:31.903Z.
+86 error This is forbidden, to maintain package integrity.
+86 error Please update the version number and try again.: mongo-wrap
+86 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+86 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:123:22)
+86 error     at Request.EventEmitter.emit (events.js:98:17)
+86 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:893:14)
+86 error     at Request.EventEmitter.emit (events.js:117:20)
+86 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:844:12)
+86 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+86 error     at _stream_readable.js:920:16
+86 error     at process._tickCallback (node.js:415:13)
+87 error If you need help, you may report this *entire* log,
+87 error including the npm and node versions, at:
+87 error     <http://github.com/npm/npm/issues>
+88 error System Linux 3.2.0-23-generic
+89 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+90 error cwd /var/www/common/mongo-wrap
+91 error node -v v0.10.26
+92 error npm -v 1.4.3
+93 verbose exit [ 1, true ]
